@@ -1,0 +1,19 @@
+import  java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("------------------");
+		ArrayDeque<Integer> a = new ArrayDeque<>();
+		a.push(1);
+		a.push(2);
+		a.push(3);
+		System.out.println(a.peek());
+		System.out.println(a.size());
+		a.pop();
+		System.out.println(a.isEmpty());
+	
+/* ArrayDeque is used in a single threaded environment
+   (Vector) Stack is used in multi-threaded evn.   */
+
+	}
+}
